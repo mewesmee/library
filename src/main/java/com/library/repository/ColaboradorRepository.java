@@ -1,0 +1,11 @@
+package com.library.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Component;
+
+import com.library.entity.ColaboradorEntity;
+
+@Component
+public interface ColaboradorRepository extends JpaRepository<ColaboradorEntity, Integer>{
+
+}
